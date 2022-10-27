@@ -107,7 +107,7 @@
 .section__list-item .section__checkbox-input {
     margin: 0 10px;
 }
-li > span {
+.section__list-item .list-item__text {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -136,11 +136,11 @@ ul li input[type=text] {
     display:none
 }
 
-ul li.editMode input[type=text] {
+.list-item_edited .section__text-input {
     display:inline-block;
     width:224px
 }
 
-ul li.editMode label {
+.list-item_edited .list-item__text {
     display:none;
 }
