@@ -108,7 +108,7 @@ li > * {
 li > input[type="checkbox"] {
     margin: 0 10px;
 }
-li > label {
+li > span {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
