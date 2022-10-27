@@ -32,11 +32,14 @@ var createNewTaskElement=function(taskString){
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
 
+    listItem.className="section__list-item"
+
     label.innerText=taskString;
     label.className='section__task';
 
     //Each elements, needs appending
     checkBox.type="checkbox";
+    checkBox.className="section-item__input section__checkbox-input";
     editInput.type="text";
     editInput.className="section__task";
 
@@ -94,9 +97,11 @@ var editTask=function(){
         //label becomes the inputs value.
         label.innerText=editInput.value;
         editBtn.innerText="Edit";
+        editInput.classList.remove('section-item__input', 'section__text-input');
     }else{
         editInput.value=label.innerText;
         editBtn.innerText="Save";
+        editInput.classList.add('section-item__input', 'section__text-input');
     }
 
     //toggle .editmode on the parent.

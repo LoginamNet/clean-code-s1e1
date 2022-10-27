@@ -94,7 +94,7 @@
 }
 
 /* Task list */
-li {
+.section__list-item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -103,11 +103,8 @@ li {
     justify-content: space-between;
     align-items: center;
 }
-li > * {
-    vertical-align: middle;
-}
 
-li > input[type="checkbox"] {
+.section__list-item .section__checkbox-input {
     margin: 0 10px;
 }
 li > span {
@@ -116,7 +113,7 @@ li > span {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+.section__list-item .section__text-input {
     width: 226px
 }
 .button-delete__image {
