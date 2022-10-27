@@ -4,21 +4,21 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
-.article {
+.header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.article__image {
+.header__image {
     width: 100%;
 }
-.article__link {
+.header__link {
     font-family: cursive;
 }
 
 @media (max-width:768px) {
-.article { text-align: center;
+.header { text-align: center;
 }
 }
 .section {
@@ -99,7 +99,6 @@
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -127,8 +126,8 @@
 }
 
 /* Completed */
-ul#completed-tasks label {
-    text-decoration: line-through
+.complete-section .list-item__text {
+    text-decoration: line-through;
     color: #888;
 }
 
