@@ -14,7 +14,7 @@
     width: 100%;
 }
 .article__link {
-    font-family: fantasy, cursive;
+    font-family: cursive;
 }
 
 @media (max-width:768px) {
@@ -26,7 +26,7 @@
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.section__task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
