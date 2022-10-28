@@ -5,24 +5,24 @@
     font-family: Lato, sans-serif;
 }
 
-.header {
+.article {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.header__image {
+.article__image {
     width: 100%;
 }
 
-.header__link {
+.article__link {
     font-family: cursive;
 }
 
 @media (max-width: 768px) {
 
-    .header {
+    .article {
         text-align: center;
     }
 
@@ -51,7 +51,7 @@
 }
 
 .section__list-item, 
-.section__header {
+.section__article {
     list-style: none;
 }
 
@@ -76,7 +76,7 @@
 
 /* Heading */
 
-.section__header {
+.section__article {
     color: #333;
     font-weight: 700;
     font-size: 15px;
