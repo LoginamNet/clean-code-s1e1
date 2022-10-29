@@ -1,174 +1,174 @@
 /* Basic Style */
 
 .page {
-    background-color: #f8f8f8;
-    color: #333;
-    font-family: Lato, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
 }
 
 .article {
-    width: 500px;
-    margin: 0 auto;
-    display: block;
-    text-align: right;
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
 }
 
 .article__image {
-    width: 100%;
+  width: 100%;
 }
 
 .article__link {
-    font-family: cursive;
+  font-family: cursive;
 }
 
 @media (max-width: 768px) {
 
-    .article {
-        text-align: center;
-    }
+  .article {
+    text-align: center;
+  }
 
 }
 
 .section {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
 }
 
 .input_text,
 .list-item__text {
-    width: 56%;
-    display: inline-block;
-    flex-grow: 1;
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
 }
 
 .section__row-wrapper {
-    display: flex;
+  display: flex;
 }
 
 .section__list {
-    margin: 0;
-    padding: 0px;
+  margin: 0;
+  padding: 0px;
 }
 
 .section__list-item, 
 .section__article {
-    list-style: none;
+  list-style: none;
 }
 
 .input,
 .button {
-    outline: none;
+  outline: none;
 }
 
 .button {
-    background: none;
-    border: 0px;
-    color: #888;
-    font-size: 15px;
-    width: 60px;
-    font-family: Lato, sans-serif;
-    cursor: pointer;
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
 }
 
 .button:hover {
-    color: #3a3A3a;
+  color: #3a3A3a;
 }
 
 /* Heading */
 
 .section__header {
-    color: #333;
-    font-weight: 700;
-    font-size: 15px;
-    border-bottom: 2px solid #333;
-    padding: 30px 0 10px;
-    margin: 0;
-    text-transform: uppercase;
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .input_text {
-    margin: 0;
-    font-size: 18px;
-    line-height: 18px;
-    height: 21px;
-    padding: 0 9px;
-    border: 1px solid #ddd;
-    background: #FFF;
-    border-radius: 6px;
-    font-family: Lato, sans-serif;
-    color: #888;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #ddd;
+  background: #FFF;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
 }
 
 .input_text:focus {
-    color: #333;
+  color: #333;
 }
 
 /* New Task */
 
 .add-section .section__label {
-    display: block;
-    margin: 0 0 20px;
+  display: block;
+  margin: 0 0 20px;
 }
 
 .add-section .input_text {
-    width: 318px;
+  width: 318px;
 }
 
 /* Task list */
 
 .section__list-item {
-    overflow: hidden;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .section__list-item .input_checkbox {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .section__list-item .list-item__text {
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 18px;
-    width: 226px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
 }
 
 .section__list-item .input_text {
-    width: 226px
+  width: 226px
 }
 
 .button__image {
-    height: 2em;
-    transform: rotateZ(45deg);
-    transition: transform 200ms ease-in;
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
 }
 
 .button__image:hover {
-    transform: rotateZ(0);
+  transform: rotateZ(0);
 }
 
 /* Completed */
 
 .complete-section .list-item__text {
-    text-decoration: line-through;
-    color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
 
 .section__list-item .input_text {
-    display: none;
+  display: none;
 }
 
 .section__list-item_edited .input_text {
-    display: inline-block;
-    width: 224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .section__list-item_edited .list-item__text {
-    display: none;
+  display: none;
 }
